@@ -1,8 +1,0 @@
-Traceback (most recent call last):
-  File "Script.py", line 85, in <module>
-    main()
-  File "Script.py", line 74, in main
-    init()
-  File "Script.py", line 27, in init
-    results=open("results/tress.txt","w")
-IOError: [Errno 2] No such file or directory: 'results/tress.txt'
