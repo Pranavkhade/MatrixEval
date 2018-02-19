@@ -21,5 +21,3 @@ module load muscle
 
 muscle -in Globins.fasta -matrix KMAT -out output/KMAT.fasta
 muscle -in Globins.fasta -matrix BLOSUM62 -out output/BLOSUM62.fasta
-
-python Script.py
