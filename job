@@ -21,7 +21,8 @@ module load muscle
 module load raxml
 
 muscle -in Globins.fasta -matrix KMAT -out output/KMAT.fasta
-muscle -in Globins.fasta -matrix BLOSUM62 -out output/BLOSUM62.fasta
+#muscle -in Globins.fasta -matrix BLOSUM62 -out output/BLOSUM62.fasta
 
-raxmlHPC-PTHREADS-AVX -T 10 -s output/KMAT.fasta -n output/KMAT
+cd output
+raxmlHPC-PTHREADS-AVX -p 12345 -s output/KMAT.fasta -n KMAT_raxML -m PROTGAMMAWAG
 
