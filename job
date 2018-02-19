@@ -1,0 +1,17 @@
+#!/bin/bash
+
+# Copy/paste this job script into a text file and submit with the command:
+#    sbatch thefilename
+# job standard output will go to the file slurm-%j.out (where %j is the job ID)
+
+#SBATCH --time=16:00:00   # walltime limit (HH:MM:SS)
+#SBATCH --nodes=1   # number of nodes
+#SBATCH --ntasks-per-node=16   # 16 processor core(s) per node 
+#SBATCH --job-name="matrix_evaluation_1"
+#SBATCH --mail-user=pranavk@iastate.edu   # email address
+#SBATCH --mail-type=BEGIN
+#SBATCH --mail-type=END
+#SBATCH --mail-type=FAIL
+
+# LOAD MODULES, INSERT CODE, AND RUN YOUR PROGRAMS HERE
+
