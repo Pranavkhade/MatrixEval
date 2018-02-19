@@ -17,6 +17,5 @@
 
 # LOAD MODULES, INSERT CODE, AND RUN YOUR PROGRAMS HERE
 module load py-biopython/1.70-python2-6c67fd5
-module load muscle
 
 python Script.py
