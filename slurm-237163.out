@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "Script.py", line 85, in <module>
+    main()
+  File "Script.py", line 80, in main
+    GenerateTree("KMAT",multifasta_filename,False)
+  File "Script.py", line 63, in GenerateTree
+    stdout,stderr=cline()
+  File "/opt/rit/spack-app/linux-rhel7-x86_64/gcc-7.2.0/py-biopython-1.70-6c67fd5cxjoels63nnwvspnfocr44ojs/lib/python2.7/site-packages/Bio/Application/__init__.py", line 523, in __call__
+    stdout_str, stderr_str)
+Bio.Application.ApplicationError: Non-zero return code 127 from 'muscle -in Globins.fasta -out KMAT.fasta -matrix KMAT', message '/bin/sh: muscle: command not found'
