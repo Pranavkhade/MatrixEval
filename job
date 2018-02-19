@@ -19,4 +19,6 @@
 module load py-biopython/1.70-python2-6c67fd5
 module load muscle
 
+muscle -in Globins.fasta -matrix KMAT -out output/KMAT.fasta
+
 python Script.py
