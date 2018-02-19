@@ -11,7 +11,7 @@ from StringIO import StringIO
 from Bio import AlignIO
 from Bio.Align.Applications import MuscleCommandline
 ########################################################################
-MEGA_location="/home/pranav/Dropbox/BCB/rotation3/MEGA/"
+MEGA_location="MEGA/"
 method="likelyhood.mao"
 GeneratePDF=False
 

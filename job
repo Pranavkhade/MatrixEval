@@ -1,4 +1,6 @@
 #!/bin/bash
+#
+#SBATCH  --workdir=/home/pranavk/MatrixEval
 
 # Copy/paste this job script into a text file and submit with the command:
 #    sbatch thefilename
@@ -14,4 +16,6 @@
 #SBATCH --mail-type=FAIL
 
 # LOAD MODULES, INSERT CODE, AND RUN YOUR PROGRAMS HERE
+module load py-biopython/1.70-python2-6c67fd5
 
+python Script.py
