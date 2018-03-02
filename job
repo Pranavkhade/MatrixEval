@@ -20,10 +20,10 @@ module load py-biopython/1.70-python2-6c67fd5
 module load muscle
 module load raxml
 
-#muscle -in Globins.fasta -matrix KMAT -out output/KMAT.fasta
+muscle -in Globins.fasta -matrix KMAT -out output/KMAT.fasta
 muscle -in Globins.fasta -matrix BLOSUM62 -out output/BLOSUM62.fasta
 
 cd output
-#raxmlHPC-PTHREADS-AVX -p 12345 -s KMAT.fasta -n KMAT_raxML -m PROTGAMMAWAG
+raxmlHPC-PTHREADS-AVX -p 12345 -s KMAT.fasta -n KMAT_raxML -m PROTGAMMAWAG
 raxmlHPC-PTHREADS-AVX -p 12345 -s BLOSUM62.fasta -n BLOSUM62_raxML -m PROTGAMMAWAG
 

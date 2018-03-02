@@ -25,9 +25,11 @@ def LoadData(dbname,n):
 ########################################################################\
 def main():
 	#GetNumberofExamples("Globins")
+	outfile=open("Globins.fasta","w")
 	selected_examples=LoadData("Globins",30)
+	for i in selected_examples:
+		outfile.write(i)
+	outfile.close()
 	
-	
-
 if(__name__=="__main__"):
 	main()
