@@ -1,10 +1,32 @@
 import os
+from Bio import SeqIO
+
 ########################################################################
-def GetNumberofExamples(dbname):
+def LoadDataBP(dbname,n):
 	for i,filename in enumerate(os.listdir("Database/"+dbname)):
-		temp=open("Database/"+dbname+"/"+filename).read().split('>')
-		print filename,"| Number of Examples: ",len(temp)
-	return 0
+		final_record=[]
+		x=0
+		if(n!=0):
+			for record_num,record in enumerate(SeqIO.parse("Database/"+dbname+"/"+filename,"fasta")):
+				record.id="F"+str(i+1)+"|"+record.id
+				record.description="F"+str(i+1)+"|"+record.description
+				record.name="F"+str(i+1)+"|"+record.name
+				if(len(record.seq)<200):
+					final_record.append(record)
+				else:
+					x=x+1
+					print x
+				if(record_num==n-x):
+					continue
+					
+		else:
+			for record in SeqIO.parse("Database/"+dbname+"/"+filename,"fasta"):
+				record.id="F"+str(i+1)+"|"+record.id
+				record.description="F"+str(i+1)+"|"+record.description
+				record.name="F"+str(i+1)+"|"+record.name
+				if(len(record.seq)<200):								#200 is because monomer length of heamoglobin was ~150
+					final_record.append(record)
+	return final_record
 
 def LoadData(dbname,n):
 	selected_examples=[]
@@ -24,12 +46,12 @@ def LoadData(dbname,n):
 
 ########################################################################\
 def main():
-	#GetNumberofExamples("Globins")
-	outfile=open("Globins.fasta","w")
-	selected_examples=LoadData("Globins",30)
-	for i in selected_examples:
-		outfile.write(i)
-	outfile.close()
+	print LoadDataBP("Globins",1)
+	#outfile=open("Globins.fasta","w")
+	#selected_examples=LoadData("Globins",30)
+	#for i in selected_examples:
+	#	outfile.write(i)
+	#outfile.close()
 	
 if(__name__=="__main__"):
 	main()

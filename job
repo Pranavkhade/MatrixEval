@@ -24,6 +24,8 @@ muscle -in Globins.fasta -matrix KMAT -out output/KMAT.fasta
 muscle -in Globins.fasta -matrix BLOSUM62 -out output/BLOSUM62.fasta
 
 cd output
-raxmlHPC-PTHREADS-AVX -p 12345 -# 100 -m PROTGAMMAWAG -s KMAT.fasta -n KMAT_raxML
-raxmlHPC-PTHREADS-AVX -p 12345 -# 100 -m PROTGAMMAWAG -s BLOSUM62.fasta -n BLOSUM62_raxML
+#raxmlHPC-PTHREADS-AVX -p 12345 -# 100 -m PROTGAMMAWAG -s KMAT.fasta -n KMAT_raxML
+#raxmlHPC-PTHREADS-AVX -p 12345 -# 100 -m PROTGAMMAWAG -s BLOSUM62.fasta -n BLOSUM62_raxML
 
+raxmlHPC-PTHREADS-AVX -p 12345 -m PROTGAMMAWAG -s KMAT.fasta -n KMAT_raxML
+raxmlHPC-PTHREADS-AVX -p 12345 -m PROTGAMMAWAG -s BLOSUM62.fasta -n BLOSUM62_raxML
