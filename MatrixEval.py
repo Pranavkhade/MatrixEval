@@ -42,7 +42,8 @@ def LoadData(dbname,n):
 
 ########################################################################\
 def main():
-	selected_data=LoadDataBP("Globins",30)
+	#selected_data=LoadDataBP("Globins",30)
+	selected_data=LoadDataBP("Globins",0)
 	print len(selected_data)
 	SeqIO.write(selected_data, "Globins.fasta", "fasta")
 	
