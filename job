@@ -6,7 +6,7 @@
 #    sbatch thefilename
 # job standard output will go to the file slurm-%j.out (where %j is the job ID)
 
-#SBATCH --time=16:00:00   # walltime limit (HH:MM:SS)
+#SBATCH --time=68:00:00   # walltime limit (HH:MM:SS)
 #SBATCH --nodes=1   # number of nodes
 #SBATCH --ntasks-per-node=16   # 16 processor core(s) per node 
 #SBATCH --job-name="matrix_evaluation_1"
@@ -24,8 +24,8 @@ muscle -in Globins.fasta -matrix KMAT -out output/KMAT.fasta
 muscle -in Globins.fasta -matrix BLOSUM62 -out output/BLOSUM62.fasta
 
 cd output
-#raxmlHPC-PTHREADS-AVX -p 12345 -# 100 -m PROTGAMMAWAG -s KMAT.fasta -n KMAT_raxML
-#raxmlHPC-PTHREADS-AVX -p 12345 -# 100 -m PROTGAMMAWAG -s BLOSUM62.fasta -n BLOSUM62_raxML
+raxmlHPC-PTHREADS-AVX -T 10 -p 12345 -# 100 -m PROTGAMMAWAG -s KMAT.fasta -n KMAT_raxML
+raxmlHPC-PTHREADS-AVX -T 10 -p 12345 -# 100 -m PROTGAMMAWAG -s BLOSUM62.fasta -n BLOSUM62_raxML
 
-raxmlHPC-PTHREADS-AVX -p 12345 -m PROTGAMMAWAG -s KMAT.fasta -n KMAT_raxML
-raxmlHPC-PTHREADS-AVX -p 12345 -m PROTGAMMAWAG -s BLOSUM62.fasta -n BLOSUM62_raxML
+#raxmlHPC-PTHREADS-AVX -p 12345 -m PROTGAMMAWAG -s KMAT.fasta -n KMAT_raxML
+#raxmlHPC-PTHREADS-AVX -p 12345 -m PROTGAMMAWAG -s BLOSUM62.fasta -n BLOSUM62_raxML
