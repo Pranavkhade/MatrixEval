@@ -1,0 +1,406 @@
+
+
+IMPORTANT WARNING: Sequences F1|sp|P02219|GLB1_TYLHE and F4|sp|P02219|GLB1_TYLHE are exactly identical
+
+
+IMPORTANT WARNING: Sequences F1|sp|P02218|GLB2_LUMTE and F4|sp|P02218|GLB2_LUMTE are exactly identical
+
+
+IMPORTANT WARNING: Sequences F1|sp|P02221|GLB1_CHITH and F4|sp|P02221|GLB1_CHITH are exactly identical
+
+
+IMPORTANT WARNING: Sequences F1|sp|P68871|HBB_HUMAN and F1|sp|P68873|HBB_PANTR are exactly identical
+
+
+IMPORTANT WARNING: Sequences F2|sp|P02210|GLB_APLLI and F4|sp|P02210|GLB_APLLI are exactly identical
+
+
+IMPORTANT WARNING: Sequences F1|sp|P02222|GLB2_CHITH and F4|sp|P02222|GLB2_CHITH are exactly identical
+
+
+IMPORTANT WARNING: Sequences F4|sp|P84296|GLB74_CHITH and F4|sp|P84297|GLB74_CHITP are exactly identical
+
+
+IMPORTANT WARNING: Sequences F4|sp|P84298|GLB75_CHITH and F4|sp|P84299|GLB75_CHITP are exactly identical
+
+
+IMPORTANT WARNING: Sequences F1|sp|Q7M413|GLBA2_OLIMA and F4|sp|Q7M413|GLBA2_OLIMA are exactly identical
+
+
+IMPORTANT WARNING: Sequences F1|sp|P83122|GLB1_METHI and F4|sp|P83122|GLB1_METHI are exactly identical
+
+
+IMPORTANT WARNING: Sequences F2|sp|P02197|MYG_CHICK and F2|sp|G1NJB6|MYG_MELGA are exactly identical
+
+IMPORTANT WARNING
+Found 11 sequences that are exactly identical to other sequences in the alignment.
+Normally they should be excluded from the analysis.
+
+Just in case you might need it, an alignment file with 
+sequence duplicates removed is printed to file BLOSUM62.fasta.reduced
+
+
+This is RAxML version 8.2.9 released by Alexandros Stamatakis on July 20 2016.
+
+With greatly appreciated code contributions by:
+Andre Aberer      (HITS)
+Simon Berger      (HITS)
+Alexey Kozlov     (HITS)
+Kassian Kobert    (HITS)
+David Dao         (KIT and HITS)
+Sarah Lutteropp   (KIT and HITS)
+Nick Pattengale   (Sandia)
+Wayne Pfeiffer    (SDSC)
+Akifumi S. Tanabe (NRIFS)
+Charlie Taylor    (UF)
+
+
+Alignment has 167 distinct alignment patterns
+
+Proportion of gaps and completely undetermined characters in this alignment: 12.38%
+
+RAxML rapid hill-climbing mode
+
+Using 1 distinct models/data partitions with joint branch length optimization
+
+
+Executing 100 inferences on the original alignment using 100 distinct randomized MP trees
+
+All free model parameters will be estimated by RAxML
+GAMMA model of rate heteorgeneity, ML estimate of alpha-parameter
+
+GAMMA Model parameters will be estimated up to an accuracy of 0.1000000000 Log Likelihood units
+
+Partition: 0
+Alignment Patterns: 167
+Name: No Name Provided
+DataType: AA
+Substitution Matrix: WAG
+Using fixed base frequencies
+
+
+
+
+RAxML was called as follows:
+
+raxmlHPC-PTHREADS-AVX -T 10 -p 12345 -# 100 -m PROTGAMMAWAG -s BLOSUM62.fasta -n BLOSUM62_raxML 
+
+
+Partition: 0 with name: No Name Provided
+Base frequencies: 0.087 0.044 0.039 0.057 0.019 0.037 0.058 0.083 0.024 0.048 0.086 0.062 0.020 0.038 0.046 0.070 0.061 0.014 0.035 0.071 
+
+Inference[0]: Time 96.382404 GAMMA-based likelihood -20359.251554, best rearrangement setting 15
+alpha[0]: 14.256108 
+Inference[1]: Time 126.489619 GAMMA-based likelihood -20360.692652, best rearrangement setting 5
+alpha[0]: 15.904864 
+Inference[2]: Time 79.318558 GAMMA-based likelihood -20365.847266, best rearrangement setting 10
+alpha[0]: 18.007145 
+Inference[3]: Time 61.629369 GAMMA-based likelihood -20358.401907, best rearrangement setting 20
+alpha[0]: 21.085787 
+Inference[4]: Time 40.339465 GAMMA-based likelihood -20360.001894, best rearrangement setting 10
+alpha[0]: 17.654917 
+Inference[5]: Time 77.866398 GAMMA-based likelihood -20357.410588, best rearrangement setting 10
+alpha[0]: 18.709916 
+Inference[6]: Time 70.042981 GAMMA-based likelihood -20360.674021, best rearrangement setting 15
+alpha[0]: 19.756080 
+Inference[7]: Time 90.771681 GAMMA-based likelihood -20359.737507, best rearrangement setting 15
+alpha[0]: 16.887795 
+Inference[8]: Time 114.522564 GAMMA-based likelihood -20360.126547, best rearrangement setting 10
+alpha[0]: 18.204062 
+Inference[9]: Time 106.378365 GAMMA-based likelihood -20359.189804, best rearrangement setting 15
+alpha[0]: 15.503066 
+Inference[10]: Time 90.356959 GAMMA-based likelihood -20357.627635, best rearrangement setting 10
+alpha[0]: 15.404175 
+Inference[11]: Time 64.965415 GAMMA-based likelihood -20355.068655, best rearrangement setting 10
+alpha[0]: 18.923732 
+Inference[12]: Time 77.603938 GAMMA-based likelihood -20359.214339, best rearrangement setting 15
+alpha[0]: 18.225261 
+Inference[13]: Time 78.884706 GAMMA-based likelihood -20359.906180, best rearrangement setting 10
+alpha[0]: 17.947185 
+Inference[14]: Time 110.710593 GAMMA-based likelihood -20356.288658, best rearrangement setting 10
+alpha[0]: 16.095313 
+Inference[15]: Time 63.612011 GAMMA-based likelihood -20358.709928, best rearrangement setting 15
+alpha[0]: 16.550594 
+Inference[16]: Time 87.711287 GAMMA-based likelihood -20356.395841, best rearrangement setting 10
+alpha[0]: 17.123634 
+Inference[17]: Time 80.799446 GAMMA-based likelihood -20360.198647, best rearrangement setting 10
+alpha[0]: 17.782265 
+Inference[18]: Time 70.241054 GAMMA-based likelihood -20359.296008, best rearrangement setting 15
+alpha[0]: 16.871041 
+Inference[19]: Time 47.558508 GAMMA-based likelihood -20358.392547, best rearrangement setting 15
+alpha[0]: 21.900916 
+Inference[20]: Time 70.205643 GAMMA-based likelihood -20360.904626, best rearrangement setting 10
+alpha[0]: 15.969769 
+Inference[21]: Time 69.024241 GAMMA-based likelihood -20362.793469, best rearrangement setting 10
+alpha[0]: 16.924945 
+Inference[22]: Time 74.886544 GAMMA-based likelihood -20359.270595, best rearrangement setting 15
+alpha[0]: 17.118673 
+Inference[23]: Time 69.834716 GAMMA-based likelihood -20356.224512, best rearrangement setting 15
+alpha[0]: 17.027661 
+Inference[24]: Time 80.192390 GAMMA-based likelihood -20365.909271, best rearrangement setting 5
+alpha[0]: 14.824437 
+Inference[25]: Time 66.078660 GAMMA-based likelihood -20363.357958, best rearrangement setting 20
+alpha[0]: 16.600218 
+Inference[26]: Time 54.045601 GAMMA-based likelihood -20356.129158, best rearrangement setting 15
+alpha[0]: 17.345088 
+Inference[27]: Time 110.870542 GAMMA-based likelihood -20357.372620, best rearrangement setting 15
+alpha[0]: 20.606890 
+Inference[28]: Time 91.730612 GAMMA-based likelihood -20360.563996, best rearrangement setting 15
+alpha[0]: 16.877070 
+Inference[29]: Time 90.307827 GAMMA-based likelihood -20358.730587, best rearrangement setting 15
+alpha[0]: 17.463084 
+Inference[30]: Time 65.796311 GAMMA-based likelihood -20361.170384, best rearrangement setting 15
+alpha[0]: 16.477857 
+Inference[31]: Time 92.680913 GAMMA-based likelihood -20367.672264, best rearrangement setting 20
+alpha[0]: 15.581183 
+Inference[32]: Time 83.387761 GAMMA-based likelihood -20360.475080, best rearrangement setting 10
+alpha[0]: 15.111680 
+Inference[33]: Time 74.697832 GAMMA-based likelihood -20358.715014, best rearrangement setting 15
+alpha[0]: 16.491161 
+Inference[34]: Time 87.530383 GAMMA-based likelihood -20355.174335, best rearrangement setting 15
+alpha[0]: 17.420897 
+Inference[35]: Time 72.351888 GAMMA-based likelihood -20365.473622, best rearrangement setting 10
+alpha[0]: 14.861863 
+Inference[36]: Time 48.031348 GAMMA-based likelihood -20357.689211, best rearrangement setting 10
+alpha[0]: 16.869409 
+Inference[37]: Time 114.262669 GAMMA-based likelihood -20359.187389, best rearrangement setting 5
+alpha[0]: 16.396564 
+Inference[38]: Time 106.367923 GAMMA-based likelihood -20363.197288, best rearrangement setting 15
+alpha[0]: 16.507712 
+Inference[39]: Time 57.430087 GAMMA-based likelihood -20365.628942, best rearrangement setting 15
+alpha[0]: 20.812345 
+Inference[40]: Time 60.222402 GAMMA-based likelihood -20359.906268, best rearrangement setting 20
+alpha[0]: 20.473616 
+Inference[41]: Time 60.062182 GAMMA-based likelihood -20359.757884, best rearrangement setting 25
+alpha[0]: 17.345856 
+Inference[42]: Time 51.443303 GAMMA-based likelihood -20366.155790, best rearrangement setting 20
+alpha[0]: 16.190216 
+Inference[43]: Time 63.648395 GAMMA-based likelihood -20359.963144, best rearrangement setting 10
+alpha[0]: 17.694536 
+Inference[44]: Time 50.678407 GAMMA-based likelihood -20363.341774, best rearrangement setting 15
+alpha[0]: 17.679285 
+Inference[45]: Time 72.367952 GAMMA-based likelihood -20360.474630, best rearrangement setting 20
+alpha[0]: 18.306581 
+Inference[46]: Time 120.167671 GAMMA-based likelihood -20360.787136, best rearrangement setting 15
+alpha[0]: 15.241682 
+Inference[47]: Time 47.639629 GAMMA-based likelihood -20358.404947, best rearrangement setting 15
+alpha[0]: 20.960443 
+Inference[48]: Time 96.160531 GAMMA-based likelihood -20356.423091, best rearrangement setting 10
+alpha[0]: 16.888660 
+Inference[49]: Time 76.193212 GAMMA-based likelihood -20356.292298, best rearrangement setting 15
+alpha[0]: 16.734713 
+Inference[50]: Time 83.102098 GAMMA-based likelihood -20355.954638, best rearrangement setting 15
+alpha[0]: 17.371377 
+Inference[51]: Time 84.038397 GAMMA-based likelihood -20357.372285, best rearrangement setting 15
+alpha[0]: 17.878590 
+Inference[52]: Time 69.335767 GAMMA-based likelihood -20363.418718, best rearrangement setting 20
+alpha[0]: 15.802648 
+Inference[53]: Time 91.346012 GAMMA-based likelihood -20363.923938, best rearrangement setting 15
+alpha[0]: 17.623748 
+Inference[54]: Time 73.953058 GAMMA-based likelihood -20358.527191, best rearrangement setting 15
+alpha[0]: 18.351622 
+Inference[55]: Time 74.662653 GAMMA-based likelihood -20359.689481, best rearrangement setting 15
+alpha[0]: 19.063221 
+Inference[56]: Time 78.044684 GAMMA-based likelihood -20359.814117, best rearrangement setting 15
+alpha[0]: 15.467352 
+Inference[57]: Time 65.830540 GAMMA-based likelihood -20354.970015, best rearrangement setting 10
+alpha[0]: 21.009763 
+Inference[58]: Time 87.999350 GAMMA-based likelihood -20356.117421, best rearrangement setting 20
+alpha[0]: 17.953914 
+Inference[59]: Time 69.493225 GAMMA-based likelihood -20364.405103, best rearrangement setting 15
+alpha[0]: 17.210344 
+Inference[60]: Time 131.794233 GAMMA-based likelihood -20359.246057, best rearrangement setting 10
+alpha[0]: 15.005127 
+Inference[61]: Time 77.350672 GAMMA-based likelihood -20364.191436, best rearrangement setting 15
+alpha[0]: 16.829005 
+Inference[62]: Time 100.313770 GAMMA-based likelihood -20360.242246, best rearrangement setting 15
+alpha[0]: 16.593057 
+Inference[63]: Time 103.334430 GAMMA-based likelihood -20362.869767, best rearrangement setting 15
+alpha[0]: 17.066075 
+Inference[64]: Time 57.730577 GAMMA-based likelihood -20356.299196, best rearrangement setting 15
+alpha[0]: 16.632687 
+Inference[65]: Time 61.489682 GAMMA-based likelihood -20361.830150, best rearrangement setting 10
+alpha[0]: 16.708952 
+Inference[66]: Time 130.761003 GAMMA-based likelihood -20356.385758, best rearrangement setting 15
+alpha[0]: 15.759027 
+Inference[67]: Time 73.939610 GAMMA-based likelihood -20355.930952, best rearrangement setting 20
+alpha[0]: 18.228139 
+Inference[68]: Time 104.103892 GAMMA-based likelihood -20360.262226, best rearrangement setting 10
+alpha[0]: 15.508565 
+Inference[69]: Time 54.531337 GAMMA-based likelihood -20362.861521, best rearrangement setting 20
+alpha[0]: 20.037489 
+Inference[70]: Time 92.834483 GAMMA-based likelihood -20359.972927, best rearrangement setting 15
+alpha[0]: 16.566406 
+Inference[71]: Time 150.019279 GAMMA-based likelihood -20355.782430, best rearrangement setting 5
+alpha[0]: 14.490879 
+Inference[72]: Time 116.160047 GAMMA-based likelihood -20357.342741, best rearrangement setting 10
+alpha[0]: 18.838625 
+Inference[73]: Time 117.949862 GAMMA-based likelihood -20359.956902, best rearrangement setting 15
+alpha[0]: 16.789154 
+Inference[74]: Time 84.694055 GAMMA-based likelihood -20367.667667, best rearrangement setting 25
+alpha[0]: 15.628977 
+Inference[75]: Time 75.418554 GAMMA-based likelihood -20358.453510, best rearrangement setting 10
+alpha[0]: 20.812175 
+Inference[76]: Time 52.942955 GAMMA-based likelihood -20360.063399, best rearrangement setting 15
+alpha[0]: 17.442658 
+Inference[77]: Time 57.877138 GAMMA-based likelihood -20356.290298, best rearrangement setting 15
+alpha[0]: 18.687433 
+Inference[78]: Time 65.063181 GAMMA-based likelihood -20356.278093, best rearrangement setting 15
+alpha[0]: 19.399318 
+Inference[79]: Time 81.164051 GAMMA-based likelihood -20355.090890, best rearrangement setting 15
+alpha[0]: 18.447048 
+Inference[80]: Time 65.038199 GAMMA-based likelihood -20359.273438, best rearrangement setting 15
+alpha[0]: 17.820190 
+Inference[81]: Time 80.025983 GAMMA-based likelihood -20361.229231, best rearrangement setting 10
+alpha[0]: 18.234525 
+Inference[82]: Time 69.529432 GAMMA-based likelihood -20356.335993, best rearrangement setting 15
+alpha[0]: 17.788436 
+Inference[83]: Time 70.534628 GAMMA-based likelihood -20363.765422, best rearrangement setting 25
+alpha[0]: 17.796616 
+Inference[84]: Time 59.384104 GAMMA-based likelihood -20360.007263, best rearrangement setting 20
+alpha[0]: 17.356898 
+Inference[85]: Time 66.416480 GAMMA-based likelihood -20356.281070, best rearrangement setting 15
+alpha[0]: 19.087847 
+Inference[86]: Time 106.147164 GAMMA-based likelihood -20356.550384, best rearrangement setting 15
+alpha[0]: 14.785833 
+Inference[87]: Time 66.774779 GAMMA-based likelihood -20355.160610, best rearrangement setting 25
+alpha[0]: 17.554440 
+Inference[88]: Time 159.742992 GAMMA-based likelihood -20356.229081, best rearrangement setting 5
+alpha[0]: 18.518192 
+Inference[89]: Time 60.111828 GAMMA-based likelihood -20356.313285, best rearrangement setting 20
+alpha[0]: 18.147094 
+Inference[90]: Time 67.402141 GAMMA-based likelihood -20360.608852, best rearrangement setting 5
+alpha[0]: 15.858287 
+Inference[91]: Time 74.742965 GAMMA-based likelihood -20360.839214, best rearrangement setting 15
+alpha[0]: 15.854554 
+Inference[92]: Time 84.470129 GAMMA-based likelihood -20355.979468, best rearrangement setting 15
+alpha[0]: 17.077517 
+Inference[93]: Time 68.431140 GAMMA-based likelihood -20355.146644, best rearrangement setting 10
+alpha[0]: 17.696917 
+Inference[94]: Time 42.010596 GAMMA-based likelihood -20359.405359, best rearrangement setting 10
+alpha[0]: 16.621833 
+Inference[95]: Time 132.239787 GAMMA-based likelihood -20356.394178, best rearrangement setting 10
+alpha[0]: 17.138969 
+Inference[96]: Time 42.545760 GAMMA-based likelihood -20362.412878, best rearrangement setting 10
+alpha[0]: 20.191928 
+Inference[97]: Time 93.861641 GAMMA-based likelihood -20359.092471, best rearrangement setting 15
+alpha[0]: 17.461487 
+Inference[98]: Time 133.556171 GAMMA-based likelihood -20355.993804, best rearrangement setting 15
+alpha[0]: 16.985627 
+Inference[99]: Time 63.930545 GAMMA-based likelihood -20358.735138, best rearrangement setting 10
+alpha[0]: 16.276861 
+
+
+Conducting final model optimizations on all 100 trees under GAMMA-based models ....
+
+Inference[0] final GAMMA-based Likelihood: -20358.731412 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.0
+Inference[1] final GAMMA-based Likelihood: -20360.498868 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.1
+Inference[2] final GAMMA-based Likelihood: -20365.638506 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.2
+Inference[3] final GAMMA-based Likelihood: -20358.420191 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.3
+Inference[4] final GAMMA-based Likelihood: -20360.092620 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.4
+Inference[5] final GAMMA-based Likelihood: -20357.477400 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.5
+Inference[6] final GAMMA-based Likelihood: -20360.727809 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.6
+Inference[7] final GAMMA-based Likelihood: -20359.737452 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.7
+Inference[8] final GAMMA-based Likelihood: -20359.834737 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.8
+Inference[9] final GAMMA-based Likelihood: -20359.308278 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.9
+Inference[10] final GAMMA-based Likelihood: -20357.540439 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.10
+Inference[11] final GAMMA-based Likelihood: -20355.054213 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.11
+Inference[12] final GAMMA-based Likelihood: -20359.371044 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.12
+Inference[13] final GAMMA-based Likelihood: -20359.900493 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.13
+Inference[14] final GAMMA-based Likelihood: -20356.140770 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.14
+Inference[15] final GAMMA-based Likelihood: -20358.741462 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.15
+Inference[16] final GAMMA-based Likelihood: -20356.293081 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.16
+Inference[17] final GAMMA-based Likelihood: -20360.318107 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.17
+Inference[18] final GAMMA-based Likelihood: -20359.257565 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.18
+Inference[19] final GAMMA-based Likelihood: -20358.420170 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.19
+Inference[20] final GAMMA-based Likelihood: -20360.925452 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.20
+Inference[21] final GAMMA-based Likelihood: -20362.652161 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.21
+Inference[22] final GAMMA-based Likelihood: -20359.192753 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.22
+Inference[23] final GAMMA-based Likelihood: -20356.255813 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.23
+Inference[24] final GAMMA-based Likelihood: -20365.851111 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.24
+Inference[25] final GAMMA-based Likelihood: -20363.586879 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.25
+Inference[26] final GAMMA-based Likelihood: -20356.164972 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.26
+Inference[27] final GAMMA-based Likelihood: -20357.368202 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.27
+Inference[28] final GAMMA-based Likelihood: -20360.498867 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.28
+Inference[29] final GAMMA-based Likelihood: -20358.420191 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.29
+Inference[30] final GAMMA-based Likelihood: -20361.331376 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.30
+Inference[31] final GAMMA-based Likelihood: -20367.785354 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.31
+Inference[32] final GAMMA-based Likelihood: -20360.806126 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.32
+Inference[33] final GAMMA-based Likelihood: -20358.741490 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.33
+Inference[34] final GAMMA-based Likelihood: -20355.054286 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.34
+Inference[35] final GAMMA-based Likelihood: -20365.717269 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.35
+Inference[36] final GAMMA-based Likelihood: -20357.756355 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.36
+Inference[37] final GAMMA-based Likelihood: -20359.012518 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.37
+Inference[38] final GAMMA-based Likelihood: -20363.082616 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.38
+Inference[39] final GAMMA-based Likelihood: -20365.638418 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.39
+Inference[40] final GAMMA-based Likelihood: -20359.906049 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.40
+Inference[41] final GAMMA-based Likelihood: -20359.882305 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.41
+Inference[42] final GAMMA-based Likelihood: -20366.527593 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.42
+Inference[43] final GAMMA-based Likelihood: -20359.984503 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.43
+Inference[44] final GAMMA-based Likelihood: -20363.456583 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.44
+Inference[45] final GAMMA-based Likelihood: -20360.498868 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.45
+Inference[46] final GAMMA-based Likelihood: -20360.618753 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.46
+Inference[47] final GAMMA-based Likelihood: -20358.420190 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.47
+Inference[48] final GAMMA-based Likelihood: -20356.293081 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.48
+Inference[49] final GAMMA-based Likelihood: -20356.358360 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.49
+Inference[50] final GAMMA-based Likelihood: -20355.884719 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.50
+Inference[51] final GAMMA-based Likelihood: -20357.416458 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.51
+Inference[52] final GAMMA-based Likelihood: -20363.653460 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.52
+Inference[53] final GAMMA-based Likelihood: -20364.081208 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.53
+Inference[54] final GAMMA-based Likelihood: -20358.489513 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.54
+Inference[55] final GAMMA-based Likelihood: -20359.711312 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.55
+Inference[56] final GAMMA-based Likelihood: -20359.897950 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.56
+Inference[57] final GAMMA-based Likelihood: -20354.968578 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.57
+Inference[58] final GAMMA-based Likelihood: -20356.092424 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.58
+Inference[59] final GAMMA-based Likelihood: -20364.367346 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.59
+Inference[60] final GAMMA-based Likelihood: -20359.682969 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.60
+Inference[61] final GAMMA-based Likelihood: -20364.344960 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.61
+Inference[62] final GAMMA-based Likelihood: -20360.318251 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.62
+Inference[63] final GAMMA-based Likelihood: -20362.850426 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.63
+Inference[64] final GAMMA-based Likelihood: -20356.358350 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.64
+Inference[65] final GAMMA-based Likelihood: -20361.586614 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.65
+Inference[66] final GAMMA-based Likelihood: -20356.358451 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.66
+Inference[67] final GAMMA-based Likelihood: -20355.988268 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.67
+Inference[68] final GAMMA-based Likelihood: -20360.215465 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.68
+Inference[69] final GAMMA-based Likelihood: -20362.860540 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.69
+Inference[70] final GAMMA-based Likelihood: -20360.015657 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.70
+Inference[71] final GAMMA-based Likelihood: -20355.154260 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.71
+Inference[72] final GAMMA-based Likelihood: -20357.368202 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.72
+Inference[73] final GAMMA-based Likelihood: -20360.015656 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.73
+Inference[74] final GAMMA-based Likelihood: -20367.785336 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.74
+Inference[75] final GAMMA-based Likelihood: -20358.463692 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.75
+Inference[76] final GAMMA-based Likelihood: -20360.193382 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.76
+Inference[77] final GAMMA-based Likelihood: -20356.293102 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.77
+Inference[78] final GAMMA-based Likelihood: -20356.293081 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.78
+Inference[79] final GAMMA-based Likelihood: -20355.054230 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.79
+Inference[80] final GAMMA-based Likelihood: -20359.280757 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.80
+Inference[81] final GAMMA-based Likelihood: -20361.196931 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.81
+Inference[82] final GAMMA-based Likelihood: -20356.293081 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.82
+Inference[83] final GAMMA-based Likelihood: -20363.681807 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.83
+Inference[84] final GAMMA-based Likelihood: -20360.156742 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.84
+Inference[85] final GAMMA-based Likelihood: -20356.293081 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.85
+Inference[86] final GAMMA-based Likelihood: -20356.358584 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.86
+Inference[87] final GAMMA-based Likelihood: -20355.054466 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.87
+Inference[88] final GAMMA-based Likelihood: -20356.253095 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.88
+Inference[89] final GAMMA-based Likelihood: -20356.293081 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.89
+Inference[90] final GAMMA-based Likelihood: -20360.316950 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.90
+Inference[91] final GAMMA-based Likelihood: -20360.981231 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.91
+Inference[92] final GAMMA-based Likelihood: -20355.988267 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.92
+Inference[93] final GAMMA-based Likelihood: -20355.054269 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.93
+Inference[94] final GAMMA-based Likelihood: -20359.664291 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.94
+Inference[95] final GAMMA-based Likelihood: -20356.293081 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.95
+Inference[96] final GAMMA-based Likelihood: -20362.406520 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.96
+Inference[97] final GAMMA-based Likelihood: -20359.062037 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.97
+Inference[98] final GAMMA-based Likelihood: -20355.884719 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.98
+Inference[99] final GAMMA-based Likelihood: -20358.741490 tree written to file /home/pranavk/MatrixEval/output/RAxML_result.BLOSUM62_raxML.RUN.99
+
+
+Starting final GAMMA-based thorough Optimization on tree 57 likelihood -20354.968578 .... 
+
+Final GAMMA-based Score of best tree -20354.968576
+
+Program execution info written to /home/pranavk/MatrixEval/output/RAxML_info.BLOSUM62_raxML
+Best-scoring ML tree written to: /home/pranavk/MatrixEval/output/RAxML_bestTree.BLOSUM62_raxML
+
+Overall execution time: 8136.406184 secs or 2.260113 hours or 0.094171 days
+
